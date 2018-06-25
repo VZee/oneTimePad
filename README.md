@@ -1,0 +1,2 @@
+# oneTimePad
+These programs mimic the creation of a basic cryptographic one time pad encryption / decryption using sockets. Keygen generates the key, opt_enc is the client that passes a given file and key to the server opt_enc_d for encryption, and then receives the encrypted file. Conversely, opt_dec passes an encrypted file and key to its server, opt_dec_d, which then decrypts the file and passes the plaintext back. 
